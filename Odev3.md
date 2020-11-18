@@ -88,7 +88,7 @@ View
 
 Verilerin Controller'dan View'a key-value çifti biçiminde iletildiği bir dictionary nesnesidir. Veriler karmaşıksa ve null istisnalarını önlemek için null kontrolü sağlamamız gerekiyorsa, verileri View'da okumak için typecasting gereklidir. ViewData'nın kapsamı ViewBag'e benzer ve mevcut istekle sınırlıdır ve ViewData'nın değeri yeniden yönlendirme sırasında boş olacaktır.
 
-Contoller
+Controller
 ```
 Public ActionResult Index()  
 {  
@@ -104,7 +104,7 @@ View
 
 Verileri aynı veya farklı Controller'daki bir eylemden başka bir eyleme geçirmek için kullanılan bir dictionary nesnesidir. TempData nesnesi genellikle session nesnesinde saklanır.
 
-Contoller
+Controller
 ```
 Public ActionResult Index()  
 {  
